@@ -1,0 +1,600 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  color: white;
+}
+html,
+body {
+  font-size: 15px;
+}
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+}
+button,
+input,
+select,
+textarea,
+optgroup {
+  font: inherit;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+.input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+img {
+  vertical-align: middle;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+.row-padding img {
+  margin-bottom: 12px;
+}
+.sidebar {
+  width: 120px;
+  background: #222;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  overflow: auto;
+}
+#main {
+  margin-left: 120px;
+}
+@media only screen and (max-width: 600px) {
+  #main {
+    margin-left: 0;
+  }
+}
+body {
+  background: #000;
+}
+/**********************  NAVBAR **********************************/
+.black {
+  background: #000;
+}
+a {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .hide-small {
+    display: none;
+  }
+}
+.button {
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.bar-block .bar-item {
+  width: 100%;
+  display: block;
+  border: none;
+  white-space: normal;
+  float: none;
+  outline: 0;
+}
+.bar-block.center .bar-item {
+  text-align: center;
+}
+.small {
+  font-size: 12px;
+}
+.xxlarge {
+  display: inline-block;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 36px;
+}
+.center {
+  text-align: center;
+}
+.padding-large {
+  padding: 12px 24px;
+}
+.sidebar img {
+  width: 100%;
+  display: block;
+}
+.hover-black:hover {
+  color: #fff;
+  background-color: #000;
+}
+.bar-block .black:hover,
+.bar .bar-item:hover {
+  background-color: rgb(192, 191, 191);
+  color: black;
+}
+.top {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+@media (min-width: 993px) {
+  .hide-large {
+    display: none;
+  }
+}
+@media (max-width: 992px) and (min-width: 601px) {
+  .hide-medium {
+    display: none;
+  }
+}
+/*******************  NAVBAR _ SMALL    ******************************************/
+.bar {
+  width: 100%;
+  overflow: hidden;
+}
+.opacity {
+  opacity: 0.6;
+}
+.hover-opacity-off:hover {
+  opacity: 1;
+}
+.bar .bar-item {
+  padding: 8px 16px;
+  float: left;
+  width: 25%;
+  border: none;
+  display: block;
+  outline: 0;
+}
+.bar:before,
+.bar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/****************************  HEADER   *********************************************/
+.padding-32 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.container {
+  padding: 0.01em 16px;
+}
+#home img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+.jumbo {
+  font-size: 64px;
+}
+#home .caption {
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+#home .caption span {
+  display: inline-block;
+  opacity: 0;
+  filter: blur(4px);
+}
+#home .caption span:nth-child(1) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+#home .caption span:nth-child(2) {
+  animation: fade-in 0.8s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+#home .caption span:nth-child(3) {
+  animation: fade-in 0.8s 0.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+#home .caption span:nth-child(4) {
+  animation: fade-in 0.8s 0.8s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+#home .caption span:nth-child(5) {
+  animation: fade-in 0.8s 1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+#home .caption span:nth-child(6) {
+  animation: fade-in 0.8s 1.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+#home .caption span:nth-child(7) {
+  animation: fade-in 0.8s 1.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+/*******   ABOUT   *******************/
+.content {
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.justify {
+  text-align: justify;
+}
+.padding-64 {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.text-grey {
+  color: #757575;
+}
+.text-light-grey {
+  color: #f1f1f1;
+}
+.padding-16 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.wide {
+  letter-spacing: 4px;
+}
+.white {
+  color: #000;
+  background-color: #fff;
+}
+.dark-grey {
+  color: #fff;
+  background-color: #616161;
+}
+.light-grey {
+  color: #000;
+  background-color: #f1f1f1;
+}
+.section {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.row .quarter {
+  float: left;
+  width: 100%;
+}
+@media (min-width: 601px) {
+  .row .quarter {
+    width: 24.99999%;
+  }
+}
+.row:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.xlarge {
+  font-size: 24px;
+}
+#about .material-icons {
+  font-size: inherit;
+}
+/********************  PRICING     ********************************/
+.row-padding > .half {
+  padding: 0 8px;
+}
+.half {
+  float: left;
+  width: 100%;
+}
+@media (min-width: 601px) {
+  .half {
+    width: 49.9999999%;
+  }
+}
+.margin-bottom {
+  margin-bottom: 16px;
+}
+.ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.padding-24 {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.half .ul h2 {
+  color: inherit;
+}
+.margin-right {
+  margin-right: 16px;
+}
+.left {
+  float: left;
+}
+.circle {
+  border-radius: 50%;
+}
+.large {
+  font-size: 18px;
+}
+h3 {
+  clear: both;
+}
+/**************  CONTACT    ***************************/
+#contact .section .material-icons {
+  width: 1.28571429em;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+#contact button span {
+  font-size: inherit;
+}
+/**************** FOOTER   **************************/
+.medium {
+  font-size: 15px;
+}
+.hover-text-green:hover {
+  color: green;
+}
+footer img.hover-opacity:hover {
+  opacity: 0.6;
+}
+.bgimg-1 {
+  background-image: url("../public/assets/goran_hero_wide.webp");
+  min-height: 100vh;
+}
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+  position: relative;
+  opacity: 0.85;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-size: cover;
+  background-position: top;
+}
+.bgimg-2 {
+  background-image: url("../public/assets/drop-color.webp");
+  min-height: 400px;
+}
+.bgimg-3 {
+  background-image: url("../public/assets/luc.webp");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+.bgimg-2 .caption,
+.bgimg-3 .caption {
+  background-color: transparent;
+  font-size: 50px;
+  color: #ffffff;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  opacity: 1;
+  text-shadow: 5px 5px 7px black;
+}
+@media (max-width: 1024px) {
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+@media (min-width: 1025px) {
+  .bgimg-1,
+  .bgimg-2,
+  .bgimg-3 {
+    background-position-x: 60px;
+  }
+  .bgimg-1 {
+    background-position: center;
+  }
+}
+header {
+  position: relative;
+}
+.waveline {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+/**************************   TOOLTIP ON HOVER   *************************************************************/
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(42, 42, 42);
+  color: rgb(221, 221, 221);
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(42, 42, 42) transparent transparent transparent;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/**************************   MODAL   *********************************************************************/
+/* The Modal (background) */
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Add Animation */
+@keyframes animatetop {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+.modal-content a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 2em;
+}
+
+.modal-content a:hover {
+  opacity: 0.6;
+}
+
+.previous {
+  background-color: #d2d2d2;
+  color: black;
+}
+
+.next {
+  background-color: #313433;
+  color: white;
+}
+.slider-buttons {
+  margin-top: 1em;
+  display: flex;
+  gap: 2em;
+}
