@@ -21,7 +21,7 @@ const GalleryGrid = ({ galleryItem, onChoice }) => {
       >
         {galleryItem.map((image) => (
           <a
-            href="/#"
+            href="./#"
             onClick={() => {
               onChoice(image);
             }}
