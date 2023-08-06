@@ -34,7 +34,7 @@ export default Header;
 //         <span className="hide-small">I'm</span> Goran Cosic.
 //       </h1>
 //       <p>Photographer and Web Designer.</p>
-//       <img src="../../assets/man_smoke.jpg" alt="boy" />
+//       <img src="./assets/man_smoke.jpg" alt="boy" />
 //     </header>
 //   );
 // };

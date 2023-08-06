@@ -2,7 +2,7 @@ const NavBar = () => {
   return (
     <>
       <nav className="sidebar small bar-block hide-small center">
-        <img src="../../assets/goran_avatar.webp" alt="" />
+        <img src="./assets/goran_avatar.webp" alt="" />
         <a href="#home" className="bar-item black button padding-large">
           <span className="xxlarge material-icons">home</span>
           <p>HOME</p>
