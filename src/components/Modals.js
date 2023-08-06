@@ -26,7 +26,7 @@ const Modals = ({ image, handleClose, handleChange }) => {
           />
           <div className="slider-buttons">
             <a
-              href="/#"
+              href="./#"
               class="previous round"
               onClick={() => {
                 handleChange(Number(image.id) - 1);
@@ -35,7 +35,7 @@ const Modals = ({ image, handleClose, handleChange }) => {
               &#8249;
             </a>
             <a
-              href="/#"
+              href="./#"
               class="next round"
               onClick={() => {
                 handleChange(Number(image.id) + 1);
