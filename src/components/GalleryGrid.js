@@ -31,7 +31,7 @@ const GalleryGrid = ({ galleryItem, onChoice }) => {
             <span className="tooltiptext">{image.alt}</span>
             <img
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
-              src={`../../assets/${image.thumb}.webp`}
+              src={`./assets/${image.thumb}.webp`}
               alt={image.alt}
             />
           </a>

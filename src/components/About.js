@@ -152,7 +152,7 @@ const About = () => {
       </div>
       <h3 className="padding-24 text-light-grey">My Reputation</h3>
       <img
-        src="../../assets/bandmember.jpg"
+        src="./assets/bandmember.jpg"
         alt="Avatar"
         className="left circle margin-right"
         style={{ width: "80px" }}
@@ -165,7 +165,7 @@ const About = () => {
       <br />
 
       <img
-        src="../../assets/avatar_g2.jpg"
+        src="./avatar_g2.jpg"
         alt="Avatar"
         className="left circle margin-right"
         style={{ width: "80px" }}

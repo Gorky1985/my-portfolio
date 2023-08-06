@@ -21,7 +21,7 @@ const Modals = ({ image, handleClose, handleChange }) => {
           <h1 style={{ color: "#222" }}>{image.name}</h1>
           <img
             style={{ width: "100%" }}
-            src={`../../assets/${image.big}.webp`}
+            src={`./${image.big}.webp`}
             alt={image.alt}
           />
           <div className="slider-buttons">

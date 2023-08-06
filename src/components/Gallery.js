@@ -9,24 +9,16 @@ const Gallery = () => {
 
       <div className="row-padding" style={{ margin: "0 -16px" }}>
         <div className="half">
-          <img src="../../assets/drop.webp" alt="" style={{ width: "100%" }} />
-          <img
-            src="../../assets/strawberry.webp"
-            alt=""
-            style={{ width: "100%" }}
-          />
-          <img
-            src="../../assets/horses.webp"
-            alt=""
-            style={{ width: "100%" }}
-          />
+          <img src="./drop.webp" alt="" style={{ width: "100%" }} />
+          <img src="./strawberry.webp" alt="" style={{ width: "100%" }} />
+          <img src="./horses.webp" alt="" style={{ width: "100%" }} />
         </div>
 
         <div className="half">
-          <img src="../../assets/bench.webp" alt="" style={{ width: "100%" }} />
-          <img src="../../assets/rose.webp" alt="" style={{ width: "100%" }} />
-          <img src="../../assets/ruins.webp" alt="" style={{ width: "100%" }} />
-          <img src="../../assets/cup.webp" alt="" style={{ width: "100%" }} />
+          <img src="./bench.webp" alt="" style={{ width: "100%" }} />
+          <img src="./rose.webp" alt="" style={{ width: "100%" }} />
+          <img src="./ruins.webp" alt="" style={{ width: "100%" }} />
+          <img src="./cup.webp" alt="" style={{ width: "100%" }} />
         </div>
       </div>
     </div>
