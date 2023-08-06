@@ -165,7 +165,7 @@ const About = () => {
       <br />
 
       <img
-        src="./avatar_g2.jpg"
+        src="./assets/avatar_g2.jpg"
         alt="Avatar"
         className="left circle margin-right"
         style={{ width: "80px" }}

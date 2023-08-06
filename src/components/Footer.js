@@ -2,31 +2,31 @@ const Footer = () => {
   return (
     <footer className="content padding-64 text-grey xlarge">
       <img
-        src="./face.png"
+        src="./assets/face.png"
         alt="facebook"
         className="hover-opacity"
         style={{ width: "25px", marginRight: "13px" }}
       />
       <img
-        src="./insta.png"
+        src="./assets/insta.png"
         alt="facebook"
         className="hover-opacity"
         style={{ width: "25px", marginRight: "10px" }}
       />
       <img
-        src="./pinterest.png"
+        src="./assets/pinterest.png"
         alt="facebook"
         className="hover-opacity"
         style={{ width: "25px", marginRight: "10px" }}
       />
       <img
-        src="./twitter.png"
+        src="./assets/twitter.png"
         alt="facebook"
         className="hover-opacity"
         style={{ width: "25px", marginRight: "10px" }}
       />
       <img
-        src="./linkedin.png"
+        src="./assets/linkedin.png"
         alt="facebook"
         className="hover-opacity"
         style={{ width: "25px", marginRight: "10px" }}
