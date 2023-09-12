@@ -438,6 +438,15 @@ footer img.hover-opacity:hover {
   background-image: url("../public/assets/luc.webp");
   min-height: 400px;
 }
+@media (max-width: 800px) {
+  #home .caption {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+  }
+}
 
 .caption {
   position: absolute;
@@ -446,6 +455,7 @@ footer img.hover-opacity:hover {
   width: 100%;
   text-align: center;
 }
+
 .bgimg-2 .caption,
 .bgimg-3 .caption {
   background-color: transparent;
@@ -456,6 +466,12 @@ footer img.hover-opacity:hover {
   opacity: 1;
   text-shadow: 5px 5px 7px black;
 }
+@media (max-width: 800px) {
+  .bgimg-2 .caption {
+    font-size: 30px;
+  }
+}
+
 @media (max-width: 1024px) {
   .bgimg-1,
   .bgimg-2,
@@ -476,6 +492,7 @@ footer img.hover-opacity:hover {
 header {
   position: relative;
 }
+
 .waveline {
   position: absolute;
   width: 100%;
@@ -483,6 +500,11 @@ header {
   left: 0;
   text-align: center;
 }
+/* @media (max-width: 800px) {
+  .waveline {
+    bottom: 150px;
+  }
+} */
 /**************************   TOOLTIP ON HOVER   *************************************************************/
 .tooltip {
   position: relative;
@@ -607,3 +629,5 @@ header {
   transform: translateX(0);
   transition: transform 1.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
+
+/*******************   MISC   ********************/

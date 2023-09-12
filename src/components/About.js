@@ -108,7 +108,7 @@ const About = () => {
       <h3 className="padding-16 text-light-grey">My Price</h3>
       <div ref={ref}>
         <motion.div
-          className="row-padding object reveal"
+          className="row-padding object"
           style={{ margin: "0 -16px" }}
         >
           <div className="half margin-bottom">
@@ -152,29 +152,29 @@ const About = () => {
       </div>
       <h3 className="padding-24 text-light-grey">My Reputation</h3>
       <img
-        src="./assets/bandmember.jpg"
+        src="./assets/avatar_1.webp"
         alt="Avatar"
         className="left circle margin-right"
         style={{ width: "80px" }}
       />
       <p>
-        <span className="large margin-right">Chris Fox.</span> CEO at Mighty
-        Schools.
+        <span className="large margin-right">John Doe.</span> CEO at Acme
+        Corporation .
       </p>
-      <p>John Doe saved us from a web disaster.</p>
+      <p>Goran Cosic saved us from a web disaster.</p>
       <br />
 
       <img
-        src="./assets/avatar_g2.jpg"
+        src="./assets/avatar_2.webp"
         alt="Avatar"
         className="left circle margin-right"
         style={{ width: "80px" }}
       />
       <p>
-        <span className="large margin-right">Rebecca Flex.</span> CEO at
-        Company.
+        <span className="large margin-right">Jessica Wright.</span> CEO at
+        Soylent Corp
       </p>
-      <p>No one is better than John Doe.</p>
+      <p>No one is better than Goran Cosic.</p>
     </div>
   );
 };

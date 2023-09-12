@@ -5,6 +5,7 @@ const GalleryGrid = ({ galleryItem, onChoice }) => {
         <div className="caption">Beauty of life</div>
       </div>
       <h2
+        id="gallery"
         style={{ marginTop: "15px", paddingTop: "16px" }}
         className="text-light-grey"
       >
