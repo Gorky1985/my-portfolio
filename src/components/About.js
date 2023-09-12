@@ -108,7 +108,7 @@ const About = () => {
       <h3 className="padding-16 text-light-grey">My Price</h3>
       <div ref={ref}>
         <motion.div
-          className="row-padding object"
+          className="row-padding object reveal"
           style={{ margin: "0 -16px" }}
         >
           <div className="half margin-bottom">
