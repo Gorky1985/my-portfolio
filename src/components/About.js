@@ -77,22 +77,22 @@ const About = () => {
 
       <div className="row center padding-16 section light-grey">
         <div className="quarter section">
-          <span className="xlarge">11+</span>
+          <span className="xlarge">15+</span>
           <br />
           Partners
         </div>
         <div className="quarter section">
-          <span className="xlarge">55+</span>
+          <span className="xlarge">37+</span>
           <br />
           Projects Done
         </div>
         <div className="quarter section">
-          <span className="xlarge">89+</span>
+          <span className="xlarge">74+</span>
           <br />
           Happy Clients
         </div>
         <div className="quarter section">
-          <span className="xlarge">150+</span>
+          <span className="xlarge">200+</span>
           <br />
           Meetings
         </div>
@@ -116,7 +116,7 @@ const About = () => {
               <li className="dark-grey xlarge padding-32">Basic</li>
               <li className="padding-16">Web Design</li>
               <li className="padding-16">Photography</li>
-              <li className="padding-16">5GB Storage</li>
+              <li className="padding-16">3GB Storage</li>
               <li className="padding-16">Mail Support</li>
               <li className="padding-16">
                 <h2>€ 10</h2>
@@ -135,7 +135,7 @@ const About = () => {
               <li className="dark-grey xlarge padding-32">Pro</li>
               <li className="padding-16">Web Design</li>
               <li className="padding-16">Photography</li>
-              <li className="padding-16">50GB Storage</li>
+              <li className="padding-16">40GB Storage</li>
               <li className="padding-16">Endless Support</li>
               <li className="padding-16">
                 <h2>€ 25</h2>
