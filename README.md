@@ -9,7 +9,7 @@ Portfolio where I used ReactJS and its features to create a small responsive web
 
 - HTML
 - CSS
-- Javascript
+- JavaScript
 - ReactJS
 
 ## Screenshots 📺
