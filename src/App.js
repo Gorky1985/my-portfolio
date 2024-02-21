@@ -18,7 +18,7 @@ function App() {
   }
   useEffect(() => {
     fetchItems();
-  });
+  }, []);
 
   return (
     <div>
