@@ -2,8 +2,7 @@
 
 ## Project Overview 🎉
 
-Based on a Video Course made by Ray Villalobos and some design ideas borrowed from W3Schools.com I created a:
-Portfolio where I used ReactJS and its features to create a small responsive website.
+Based on a video course by Ray Villalobos and drawing inspiration from design ideas found on W3Schools.com, I created a portfolio using ReactJS and its features to develop a small, responsive website.
 
 ## Technologies 🔧
 

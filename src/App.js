@@ -2,7 +2,7 @@ import "./App.css";
 import { useState, useEffect } from "react";
 import NavBar from "./components/NavBar";
 import Header from "./components/Header";
-import About from "./components/About";
+import Main from "./components/Main";
 import GalleryGrid from "./components/GalleryGrid";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -25,7 +25,7 @@ function App() {
       <NavBar />
       <div className="padding-large" id="main">
         <Header />
-        <About />
+        <Main />
         <GalleryGrid
           galleryItem={galleryItem}
           onChoice={(info) => {

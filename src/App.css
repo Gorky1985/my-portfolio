@@ -437,6 +437,7 @@ footer img.hover-opacity:hover {
 .bgimg-3 {
   background-image: url("../public/assets/luc.webp");
   min-height: 400px;
+  margin-bottom: 64px;
 }
 @media (max-width: 800px) {
   #home .caption {
@@ -569,14 +570,19 @@ header {
   animation-name: animatetop;
   animation-duration: 0.4s;
 }
-
-/* The Close Button */
+.modal-content h1 {
+  font-size: 2em;
+}
 .close {
   color: #aaa;
-  float: right;
+  position: absolute;
+  top: 0;
+  right: 5px;
   font-size: 28px;
   font-weight: bold;
 }
+
+/* The Close Button */
 
 .close:hover,
 .close:focus {
@@ -584,6 +590,15 @@ header {
   text-decoration: none;
   cursor: pointer;
 }
+@media screen and (min-width: 1024px) {
+  .close {
+    float: right;
+  }
+  .modal-content h1 {
+    font-size: 36px;
+  }
+}
+
 /* Add Animation */
 @keyframes animatetop {
   from {
@@ -631,3 +646,27 @@ header {
 }
 
 /*******************   MISC   ********************/
+.margin-top-bottom {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.padding-bottom-64 {
+  padding-bottom: 64px;
+}
+.padding-top-64 {
+  padding-top: 64px;
+}
+.margin-bottom-64 {
+  margin-bottom: 64px;
+}
+.list-inline {
+  list-style: none;
+  padding: 0;
+  margin-left: -1em;
+}
+.list-inline-item {
+  display: inline-block;
+}
+.text-center {
+  text-align: center;
+}

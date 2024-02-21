@@ -16,7 +16,7 @@ const Header = () => {
 
           <p>
             <span>Photographer</span> <span> and</span> <span> Web</span>{" "}
-            <span> Designer.</span>
+            <span> Developer.</span>
           </p>
         </div>
       </div>
