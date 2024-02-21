@@ -134,7 +134,7 @@ const Main = () => {
       </h3>
       <div ref={ref} className="margin-top-bottom">
         <motion.div
-          className="row-padding object"
+          className="row-padding object reveal"
           style={{ margin: "0 -16px" }}
         >
           <div className="half margin-bottom">
