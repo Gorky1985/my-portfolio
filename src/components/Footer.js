@@ -1,36 +1,14 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faLinkedin,
+  faFacebookF,
+  faGithub,
+  faFlickr,
+} from "@fortawesome/free-brands-svg-icons";
+
 const Footer = () => {
   return (
     <footer className="content padding-64 text-grey xlarge">
-      {/* <img
-        src="./assets/face.png"
-        alt="facebook"
-        className="hover-opacity"
-        style={{ width: "25px", marginRight: "13px" }}
-      />
-      <img
-        src="./assets/insta.png"
-        alt="facebook"
-        className="hover-opacity"
-        style={{ width: "25px", marginRight: "10px" }}
-      />
-      <img
-        src="./assets/pinterest.png"
-        alt="facebook"
-        className="hover-opacity"
-        style={{ width: "25px", marginRight: "10px" }}
-      />
-      <img
-        src="./assets/twitter.png"
-        alt="facebook"
-        className="hover-opacity"
-        style={{ width: "25px", marginRight: "10px" }}
-      />
-      <img
-        src="./assets/linkedin.png"
-        alt="facebook"
-        className="hover-opacity"
-        style={{ width: "25px", marginRight: "10px" }}
-      /> */}
       <ul className="list-inline">
         <li className="list-inline-item">
           <a
@@ -38,10 +16,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <span className="fa-stack fa-lg">
-              <i className="fas  fa-stack-2x"></i>
-              <i className="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-            </span>
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </li>
         <li className="list-inline-item">
@@ -50,10 +25,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <span className="fa-stack fa-lg">
-              <i className="fas  fa-stack-2x"></i>
-              <i className="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-            </span>
+            <FontAwesomeIcon icon={faFacebookF} />
           </a>
         </li>
         <li className="list-inline-item">
@@ -62,10 +34,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <span className="fa-stack fa-lg">
-              <i className="fas  fa-stack-2x"></i>
-              <i className="fab fa-github fa-stack-1x fa-inverse"></i>
-            </span>
+            <FontAwesomeIcon icon={faGithub} />
           </a>
         </li>
         <li className="list-inline-item">
@@ -74,10 +43,7 @@ const Footer = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <span className="fa-stack fa-lg">
-              <i className="fas  fa-stack-2x"></i>
-              <i className="fab fa-flickr fa-stack-1x fa-inverse"></i>
-            </span>
+            <FontAwesomeIcon icon={faFlickr} />
           </a>
         </li>
       </ul>

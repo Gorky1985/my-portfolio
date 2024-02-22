@@ -662,10 +662,10 @@ header {
 .list-inline {
   list-style: none;
   padding: 0;
-  margin-left: -1em;
 }
 .list-inline-item {
   display: inline-block;
+  margin-right: 1em;
 }
 .text-center {
   text-align: center;
