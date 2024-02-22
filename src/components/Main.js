@@ -151,9 +151,12 @@ const Main = () => {
                 <p>others ...</p>
               </li>
               <li className="light-grey padding-24">
-                <button className="button white padding-large hover-black">
+                <a
+                  href="#contact"
+                  className="button white padding-large hover-black"
+                >
                   Get in touch
-                </button>
+                </a>
               </li>
             </ul>
           </div>
@@ -173,9 +176,12 @@ const Main = () => {
                 <p>others ...</p>
               </li>
               <li className="light-grey padding-24">
-                <button className="button white padding-large hover-black">
+                <a
+                  href="#contact"
+                  className="button white padding-large hover-black"
+                >
                   Get in touch
-                </button>
+                </a>
               </li>
             </ul>
           </div>

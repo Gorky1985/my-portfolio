@@ -432,11 +432,11 @@ footer img.hover-opacity:hover {
   background-position: top;
 }
 .bgimg-2 {
-  background-image: url("../public/assets/drop-color.webp");
+  background-image: url("../public/assets/drop-color-small.webp");
   min-height: 400px;
 }
 .bgimg-3 {
-  background-image: url("../public/assets/luc.webp");
+  background-image: url("../public/assets/luc-small.webp");
   min-height: 400px;
   margin-bottom: 64px;
 }
@@ -445,11 +445,29 @@ footer img.hover-opacity:hover {
     background-image: url("../public/assets/goran_hero_wide_med.webp");
     min-height: 100vh;
   }
+  .bgimg-2 {
+    background-image: url("../public/assets/drop-color-med.webp");
+    min-height: 400px;
+  }
+  .bgimg-3 {
+    background-image: url("../public/assets/luc-med.webp");
+    min-height: 400px;
+    margin-bottom: 64px;
+  }
 }
 @media screen and (min-width: 1024px) {
   .bgimg-1 {
     background-image: url("../public/assets/goran_hero_wide.webp");
     min-height: 100vh;
+  }
+  .bgimg-2 {
+    background-image: url("../public/assets/drop-color.webp");
+    min-height: 400px;
+  }
+  .bgimg-3 {
+    background-image: url("../public/assets/luc.webp");
+    min-height: 400px;
+    margin-bottom: 64px;
   }
 }
 @media (max-width: 800px) {

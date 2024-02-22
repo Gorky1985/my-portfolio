@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.ce8c5e97.css",
-    "main.js": "/my-portfolio/static/js/main.1634748f.js",
+    "main.css": "/my-portfolio/static/css/main.5a6a23e2.css",
+    "main.js": "/my-portfolio/static/js/main.4402abb9.js",
     "static/js/132.5796a5df.chunk.js": "/my-portfolio/static/js/132.5796a5df.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/my-portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/luc.webp": "/my-portfolio/static/media/luc.97420e1043fcc5011347.webp",
-    "static/media/drop-color.webp": "/my-portfolio/static/media/drop-color.509f5270b4cc1a6e546c.webp",
+    "static/media/luc.webp": "/my-portfolio/static/media/luc.3c1695e7875bca488cff.webp",
+    "static/media/luc-med.webp": "/my-portfolio/static/media/luc-med.0c4aa29860ac87db5b3d.webp",
+    "static/media/luc-small.webp": "/my-portfolio/static/media/luc-small.88c3570c389cfdda124d.webp",
+    "static/media/drop-color.webp": "/my-portfolio/static/media/drop-color.367044357ec9b27ea23e.webp",
     "static/media/goran_hero_wide.webp": "/my-portfolio/static/media/goran_hero_wide.abd899e4a0e1228cc3d7.webp",
+    "static/media/drop-color-med.webp": "/my-portfolio/static/media/drop-color-med.46e70777722bf185fb18.webp",
     "static/media/goran_hero_wide_med.webp": "/my-portfolio/static/media/goran_hero_wide_med.c0b25eb34263aa05c486.webp",
+    "static/media/drop-color-small.webp": "/my-portfolio/static/media/drop-color-small.73a869907f254ddb831d.webp",
     "static/media/goran_hero_wide_small.webp": "/my-portfolio/static/media/goran_hero_wide_small.440f6c26b868f8d7840b.webp",
     "index.html": "/my-portfolio/index.html",
-    "main.ce8c5e97.css.map": "/my-portfolio/static/css/main.ce8c5e97.css.map",
-    "main.1634748f.js.map": "/my-portfolio/static/js/main.1634748f.js.map",
+    "main.5a6a23e2.css.map": "/my-portfolio/static/css/main.5a6a23e2.css.map",
+    "main.4402abb9.js.map": "/my-portfolio/static/js/main.4402abb9.js.map",
     "132.5796a5df.chunk.js.map": "/my-portfolio/static/js/132.5796a5df.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/my-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce8c5e97.css",
-    "static/js/main.1634748f.js"
+    "static/css/main.5a6a23e2.css",
+    "static/js/main.4402abb9.js"
   ]
 }
