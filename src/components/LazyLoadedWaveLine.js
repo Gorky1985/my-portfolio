@@ -1,6 +1,7 @@
+import React from "react";
 import { easeInOut, motion } from "framer-motion";
 
-const WaveLine = () => {
+const LazyLoadedWaveLine = () => {
   return (
     <svg viewBox="0 0 1440 363" fill="none" xmlns="http://www.w3.org/2000/svg">
       <motion.path
@@ -16,4 +17,4 @@ const WaveLine = () => {
   );
 };
 
-export default WaveLine;
+export default LazyLoadedWaveLine;

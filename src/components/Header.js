@@ -1,11 +1,15 @@
-import WaveLine from "./WaveLine";
+import React, { Suspense } from "react";
+
+const LazyWaveLine = React.lazy(() => import("./LazyLoadedWaveLine"));
 
 const Header = () => {
   return (
     <header className="container padding-32 center black" id="home">
       <div className="bgimg-1">
         <div className="waveline">
-          <WaveLine />
+          <Suspense fallback={<div>Loading...</div>}>
+            <LazyWaveLine />
+          </Suspense>
         </div>
 
         <div className="caption">
