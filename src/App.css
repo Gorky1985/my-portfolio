@@ -413,9 +413,10 @@ footer img.hover-opacity:hover {
   opacity: 0.6;
 }
 .bgimg-1 {
-  background-image: url("../public/assets/goran_hero_wide.webp");
+  background-image: url("../public/assets/goran_hero_wide_small.webp");
   min-height: 100vh;
 }
+
 .bgimg-1,
 .bgimg-2,
 .bgimg-3 {
@@ -438,6 +439,18 @@ footer img.hover-opacity:hover {
   background-image: url("../public/assets/luc.webp");
   min-height: 400px;
   margin-bottom: 64px;
+}
+@media screen and (min-width: 700px) {
+  .bgimg-1 {
+    background-image: url("../public/assets/goran_hero_wide_med.webp");
+    min-height: 100vh;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .bgimg-1 {
+    background-image: url("../public/assets/goran_hero_wide.webp");
+    min-height: 100vh;
+  }
 }
 @media (max-width: 800px) {
   #home .caption {

@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.d561100d.css",
+    "main.css": "/my-portfolio/static/css/main.ce8c5e97.css",
     "main.js": "/my-portfolio/static/js/main.f7b8ec2c.js",
     "static/js/787.1ed0c42c.chunk.js": "/my-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/luc.webp": "/my-portfolio/static/media/luc.97420e1043fcc5011347.webp",
-    "static/media/goran_hero_wide.webp": "/my-portfolio/static/media/goran_hero_wide.6af4f77abec3e94170db.webp",
     "static/media/drop-color.webp": "/my-portfolio/static/media/drop-color.509f5270b4cc1a6e546c.webp",
+    "static/media/goran_hero_wide.webp": "/my-portfolio/static/media/goran_hero_wide.abd899e4a0e1228cc3d7.webp",
+    "static/media/goran_hero_wide_med.webp": "/my-portfolio/static/media/goran_hero_wide_med.c0b25eb34263aa05c486.webp",
+    "static/media/goran_hero_wide_small.webp": "/my-portfolio/static/media/goran_hero_wide_small.440f6c26b868f8d7840b.webp",
     "index.html": "/my-portfolio/index.html",
-    "main.d561100d.css.map": "/my-portfolio/static/css/main.d561100d.css.map",
+    "main.ce8c5e97.css.map": "/my-portfolio/static/css/main.ce8c5e97.css.map",
     "main.f7b8ec2c.js.map": "/my-portfolio/static/js/main.f7b8ec2c.js.map",
     "787.1ed0c42c.chunk.js.map": "/my-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d561100d.css",
+    "static/css/main.ce8c5e97.css",
     "static/js/main.f7b8ec2c.js"
   ]
 }
