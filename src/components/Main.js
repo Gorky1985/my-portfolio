@@ -247,6 +247,24 @@ const Main = () => {
       <p>An example of an online shop coupled with Stripe.</p>
       <br />
       <a
+        href="https://gorky1985.github.io/Food-App/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          src="./assets/foodapp.webp"
+          alt="Avatar"
+          className="left circle margin-right"
+          style={{ width: "80px" }}
+        />
+      </a>
+      <p>
+        <span className="large margin-right">Food Tracker App</span> Calculate
+        and track your calorie intake
+      </p>
+      <p>An example of Food Tracker App built with Vanilla JavaScript.</p>
+      <br />
+      <a
         href="https://my-travel-blog-d2179.ew.r.appspot.com/"
         target="_blank"
         rel="noreferrer"

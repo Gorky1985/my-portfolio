@@ -1,0 +1,10 @@
+{
+  "description": "200ml milk bottle",
+  "id": 2,
+  "image": "https://raw.githubusercontent.com/Gorky1985/my-portfolio/master/public/assets/hosting/babyboom/cake2.png",
+  "name": "Milk",
+  "nutrition": { "carbs": 11, "fat": 15, "protein": 16, "salt": 0.44 },
+  "price": 5,
+  "price_id": "price_1OWFsFEuk9vquqr0eSZVj83w",
+  "storage": "Store in the fridge"
+}

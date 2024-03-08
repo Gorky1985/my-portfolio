@@ -1,0 +1,10 @@
+{
+  "description": "500g pineapple",
+  "id": 4,
+  "image": "https://raw.githubusercontent.com/Gorky1985/my-portfolio/master/public/assets/hosting/babyboom/cake4.png",
+  "name": "Pineapple",
+  "nutrition": { "carbs": 22, "fat": 2, "protein": 1, "salt": 0 },
+  "price": 3.25,
+  "price_id": "price_1OWFwEEuk9vquqr02NrsipRD",
+  "storage": "Store in a cool place, away from the sun."
+}
