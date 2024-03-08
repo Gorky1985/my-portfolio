@@ -259,7 +259,7 @@ const Main = () => {
         />
       </a>
       <p>
-        <span className="large margin-right">Food Tracker App</span> Calculate
+        <span className="large margin-right">Food Tracker App.</span> Calculate
         and track your calorie intake
       </p>
       <p>An example of Food Tracker App built with Vanilla JavaScript.</p>
@@ -281,6 +281,20 @@ const Main = () => {
         world with my family.
       </p>
       <p>An example for a small full stack blog.</p>
+      <br />
+      <a href="https://rios.hr/" target="_blank" rel="noreferrer">
+        <img
+          src="./assets/rioshr.webp"
+          alt="Avatar"
+          className="left circle margin-right"
+          style={{ width: "80px" }}
+        />
+      </a>
+      <p>
+        <span className="large margin-right">RIOS.</span>Association for Early
+        Intervention in Childhood
+      </p>
+      <p>Collaborator in creating a website.</p>
     </div>
   );
 };
