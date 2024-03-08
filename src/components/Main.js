@@ -260,7 +260,7 @@ const Main = () => {
       </a>
       <p>
         <span className="large margin-right">Food Tracker App.</span> Calculate
-        and track your calorie intake
+        and track your calorie intake.
       </p>
       <p>An example of Food Tracker App built with Vanilla JavaScript.</p>
       <br />
@@ -292,7 +292,7 @@ const Main = () => {
       </a>
       <p>
         <span className="large margin-right">RIOS.</span>Association for Early
-        Intervention in Childhood
+        Intervention in Childhood.
       </p>
       <p>Collaborator in creating a website.</p>
     </div>
