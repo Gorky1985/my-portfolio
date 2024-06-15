@@ -1,7 +1,7 @@
 {
   "description": "200ml milk bottle",
   "id": 2,
-  "image": "https://raw.githubusercontent.com/Gorky1985/my-portfolio/master/public/assets/hosting/babyboom/cake2.png",
+  "image": "https://raw.githubusercontent.com/Gorky1985/my-portfolio/master/public/assets/hosting/superM/milk.png",
   "name": "Milk",
   "nutrition": { "carbs": 11, "fat": 15, "protein": 16, "salt": 0.44 },
   "price": 5,

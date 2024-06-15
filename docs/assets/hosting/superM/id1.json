@@ -1,7 +1,7 @@
 {
   "description": "200g cheese block",
   "id": 1,
-  "image": "https://raw.githubusercontent.com/Gorky1985/my-portfolio/master/public/assets/hosting/babyboom/cake1.png",
+  "image": "https://raw.githubusercontent.com/Gorky1985/my-portfolio/master/public/assets/hosting/superM/cheese.png",
   "name": "Cheese",
   "nutrition": { "carbs": 1.3, "fat": 33, "protein": 25, "salt": 1 },
   "price": 10,

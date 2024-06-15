@@ -1,7 +1,7 @@
 {
   "description": "1 piece of tomato",
   "id": 3,
-  "image": "https://raw.githubusercontent.com/Gorky1985/my-portfolio/master/public/assets/hosting/babyboom/cake3.png",
+  "image": "https://raw.githubusercontent.com/Gorky1985/my-portfolio/master/public/assets/hosting/superM/tomato.png",
   "name": "Tomato",
   "nutrition": { "carbs": 4, "fat": 0.2, "protein": 1, "salt": 0 },
   "price": 2.75,
