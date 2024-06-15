@@ -3,7 +3,7 @@
     "description": "200g cheese block",
     "id": 1,
     "image": "https://raw.githubusercontent.com/Gorky1985/my-portfolio/master/public/assets/hosting/superM/cheese.png",
-    "name": "Sir",
+    "name": "Cheese",
     "price": 10,
     "price_id": "price_1OWFnoEuk9vquqr07KWFRJZy"
   },
@@ -11,7 +11,7 @@
     "description": "200ml milk bottle",
     "id": 2,
     "image": "https://raw.githubusercontent.com/Gorky1985/my-portfolio/master/public/assets/hosting/superM/milk.png",
-    "name": "Mlijeko",
+    "name": "Milk",
     "price": 5,
     "price_id": "price_1OWFsFEuk9vquqr0eSZVj83w"
   },
@@ -19,7 +19,7 @@
     "description": "1 piece of tomato",
     "id": 3,
     "image": "https://raw.githubusercontent.com/Gorky1985/my-portfolio/master/public/assets/hosting/superM/tomato.png",
-    "name": "Paradajsija",
+    "name": "Tomato",
     "price": 2.75,
     "price_id": "price_1OWFuCEuk9vquqr0YKi4Q9zm"
   },
@@ -27,7 +27,7 @@
     "description": "500g pineapple",
     "id": 4,
     "image": "https://raw.githubusercontent.com/Gorky1985/my-portfolio/master/public/assets/hosting/superM/pineapple.png",
-    "name": "Ananananas",
+    "name": "Pineapple",
     "price": 3.25,
     "price_id": "price_1OWFwEEuk9vquqr02NrsipRD"
   }
