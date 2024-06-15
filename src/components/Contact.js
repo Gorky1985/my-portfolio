@@ -43,22 +43,41 @@ const Contact = () => {
                      Subject: ${formData.subject}<br/>
                      Message: ${formData.message}<br/>`;
 
-    // Simulate sending email (replace this with your actual email sending code)
-    console.log(bodyMessage);
+    // Sending email using SMTP.js
+    window.Email.send({
+      Host: "smtp.elasticemail.com",
+      Username: "gorky1985@gmail.com",
+      Password: "CBB67EBEA7C33D5E587DBBBE1FD246967B3D",
+      To: "gorky1985@gmail.com",
+      From: "gorky1985@gmail.com",
+      Subject: `New Contact Form Submission: ${formData.subject}`,
+      Body: bodyMessage,
+    }).then(
+      (message) => {
+        console.log(message);
+        Swal.fire({
+          title: "Success!",
+          text: "Message sent successfully!",
+          icon: "success",
+        });
 
-    Swal.fire({
-      title: "Success!",
-      text: "Message sent successfully!",
-      icon: "success",
-    });
-
-    // Reset form data after successful submission
-    setFormData({
-      name: "",
-      email: "",
-      subject: "",
-      message: "",
-    });
+        // Reset form data after successful submission
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+        });
+      },
+      (error) => {
+        console.error(error);
+        Swal.fire({
+          title: "Error!",
+          text: "Message failed to send!",
+          icon: "error",
+        });
+      }
+    );
   };
 
   function copyToClipboard(text, type) {
@@ -90,7 +109,11 @@ const Contact = () => {
     if (validateForm()) {
       sendEmail();
     } else {
-      alert("Please fill out all required fields.");
+      Swal.fire({
+        title: "Error!",
+        text: "Please fill out all required fields.",
+        icon: "error",
+      });
     }
   };
 
