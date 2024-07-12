@@ -50,7 +50,7 @@ const Footer = () => {
       <p className="medium">
         Powered by{" "}
         <a href="#home" className="hover-text-green">
-          Goran Cosic Photography
+          Goran Cosic
         </a>
       </p>
     </footer>

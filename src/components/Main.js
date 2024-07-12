@@ -57,30 +57,30 @@ const Main = () => {
       <h2 className="text-light-grey">Goran Cosic</h2>
       <hr style={{ width: "200px" }} className="opacity" />
       <p>
-        Hello! I'm Goran, a passionate web developer and hobby photographer
-        based in Vienna, originally from Croatia. As a married father of two
-        wonderful children, I find joy in balancing my professional endeavors
-        with family life. Seeking to advance my career in web development, I've
-        built a portfolio to showcase my skills. I love crafting websites and
-        blogs not only for their practical applications but also as a means to
-        explore and learn more about the ever-evolving world of web
-        technologies. When I'm not immersed in code, you can often find me
-        behind the lens, capturing precious moments with my camera. My love for
-        photography intertwines seamlessly with my passion for travel, as I seek
-        inspiration from the diverse cultures and landscapes I encounter.
-        Whether it's building innovative web solutions or embarking on new
-        adventures, I thrive on the excitement of creating and exploring in both
-        the digital and physical realms.
+        Hello! I'm Goran, a passionate full stack developer and hobby
+        photographer based in Vienna, originally from Croatia. As a married
+        father of three wonderful children, I find joy in balancing my
+        professional endeavors with family life. Seeking to advance my career in
+        full stack development, I've built a portfolio to showcase my skills. I
+        love crafting websites and blogs not only for their practical
+        applications but also as a means to explore and learn more about the
+        ever-evolving world of web technologies. When I'm not immersed in code,
+        you can often find me behind the lens, capturing precious moments with
+        my camera. My love for photography intertwines seamlessly with my
+        passion for travel, as I seek inspiration from the diverse cultures and
+        landscapes I encounter. Whether it's building innovative web solutions
+        or embarking on new adventures, I thrive on the excitement of creating
+        and exploring in both the digital and physical realms.
       </p>
       <h3 className="padding-16 text-light-grey padding-top-64">My Skills</h3>
-      <p className="wide">Photography</p>
+      <p className="wide">Full Stack Development</p>
       <div className="white">
         <div
           className="dark-grey"
           style={{ height: "28px", width: "95%" }}
         ></div>
       </div>
-      <p className="wide">Web Design</p>
+      <p className="wide">Photography</p>
       <div className="white">
         <div
           className="dark-grey"
@@ -139,14 +139,14 @@ const Main = () => {
         >
           <div className="half margin-bottom">
             <ul className="ul white center opacity hover-opacity-off">
-              <li className="dark-grey xlarge padding-32">Web</li>
-              <li className="padding-16">HTML5</li>
-              <li className="padding-16">CSS3</li>
-              <li className="padding-16">JavaScript</li>
+              <li className="dark-grey xlarge padding-32">Web Skills</li>
+              <li className="padding-16">HTML5 & CSS3</li>
+              <li className="padding-16">Bootstrap 5</li>
+              <li className="padding-16">JavaScript ES6</li>
+              <li className="padding-16">VueJS</li>
+              <li className="padding-16">Vuetify</li>
               <li className="padding-16">ReactJS</li>
               <li className="padding-16">NodeJS</li>
-              <li className="padding-16">Firebase</li>
-              <li className="padding-16">Google Cloud</li>
               <li className="padding-16">
                 <p>others ...</p>
               </li>
@@ -163,14 +163,14 @@ const Main = () => {
 
           <div className="half">
             <ul className="ul white center opacity hover-opacity-off">
-              <li className="dark-grey xlarge padding-32">Photo</li>
-              <li className="padding-16">Nikon Cameras</li>
-              <li className="padding-16">Nikon Lenses</li>
-              <li className="padding-16">Flash Units</li>
-              <li className="padding-16">Studio Set</li>
-              <li className="padding-16">Large Size Printing</li>
-              <li className="padding-16">Adobe Photoshop</li>
-              <li className="padding-16">Adobe Camera Raw</li>
+              <li className="dark-grey xlarge padding-32">Java & DB</li>
+              <li className="padding-16">Spring Boot</li>
+              <li className="padding-16">REST (Swagger API)</li>
+              <li className="padding-16">JPA & Hibernate</li>
+              <li className="padding-16">Spring Security</li>
+              <li className="padding-16">MariaDB</li>
+              <li className="padding-16">MySQL</li>
+              <li className="padding-16">Firebase</li>
 
               <li className="padding-16">
                 <p>others ...</p>

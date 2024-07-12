@@ -19,7 +19,7 @@ const Header = () => {
           </h1>
 
           <p>
-            <span>Photographer</span> <span> and</span> <span> Web</span>{" "}
+            <span>Photographer</span> <span> and</span> <span> Full Stack</span>{" "}
             <span> Developer.</span>
           </p>
         </div>
